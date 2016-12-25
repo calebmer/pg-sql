@@ -43,7 +43,7 @@ pg.query(sql`select * from user where id = ${id}`).then(({ rows }) => console.lo
 
 The API of this module is fairly simple, but this is where some of its power comes from.
 
-### `sql\`...\``
+### ``sql`...` ``
 
 A template string tag which interpolates all values as placeholders unless they are escaped with a function from this package such as `sql.ident` or `sql.raw`.
 
