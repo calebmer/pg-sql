@@ -1,0 +1,62 @@
+{
+  "name": "pg-sql",
+  "version": "1.0.0",
+  "description": "Create SQL for Postgres in a safe and composable fashion with the power of template strings.",
+  "author": "Caleb Meredith <calebmeredith8@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/calebmer/pg-sql#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebmer/pg-sql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/calebmer/pg-sql/issues"
+  },
+  "keywords": [
+    "postgres",
+    "pg",
+    "sql",
+    "builder",
+    "safe",
+    "compose",
+    "composable",
+    "template",
+    "string",
+    "typescript"
+  ],
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "build"
+  ],
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watch",
+    "build": "rm -rf build && tsc"
+  },
+  "dependencies": {
+    "pg-minify": "^0.4.1"
+  },
+  "devDependencies": {
+    "jest": "^18.0.0",
+    "typescript": "^2.1.4"
+  },
+  "jest": {
+    "transform": {
+      ".ts": "<rootDir>/resources/jest-ts-transform.js"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "ts"
+    ],
+    "browser": false,
+    "testEnvironment": "node",
+    "testPathDirs": [
+      "<rootDir>/src"
+    ],
+    "testRegex": "/__tests__/[^.]+-test.js$"
+  }
+}
