@@ -35,7 +35,8 @@
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watch",
-    "build": "rm -rf build && tsc"
+    "build": "rm -rf build && tsc",
+    "preversion": "npm run test && npm run build"
   },
   "dependencies": {
     "pg-minify": "^0.4.1"
