@@ -1,1 +1,1 @@
-export { sql } from './sql'
+export { sql, SQLQuery } from './sql'
