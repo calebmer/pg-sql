@@ -1,6 +1,6 @@
 {
   "name": "pg-sql",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Create SQL for Postgres in a safe and composable fashion with the power of template strings.",
   "author": "Caleb Meredith <calebmeredith8@gmail.com>",
   "license": "MIT",
