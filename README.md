@@ -1,5 +1,7 @@
 # `pg-sql`
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/calebmer/pg-sql.svg)](https://greenkeeper.io/)
+
 Create SQL for Postgres in a safe and composable fashion with the power of template strings.
 
 ```js
